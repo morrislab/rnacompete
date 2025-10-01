@@ -1,0 +1,47 @@
+[build-system]
+requires = ['setuptools', 'wheel']
+build-backend = 'setuptools.build_meta'
+
+[project]
+name = 'rnacompete'
+version = '1.0.0'
+description = 'Process and summarize RNAcompete data.'
+readme = 'README.md'
+license = { file = 'LICENSE' }
+requires-python = '>=3.8'
+authors = [{name = 'Cyrus L. Tam', email = 'tamlongyat@gmail.com'}]
+keywords = ['bioinformatics', 'rbp', 'protein', 'rna', 'rnacompete']
+classifiers = [
+    'Programming Language :: Python :: 3',
+]
+dependencies = [
+    'logomaker==0.8.7',
+    'matplotlib',
+    'numpy==1.24.4',
+    'scikit-learn==1.3.2',
+    'scipy==1.10.1',
+    'pandas==2.0.3',
+    'pickleshare==0.7.5',
+    # 'meme' is conda only, see README for installation instructions
+]
+
+[project.urls]
+Repository = 'https://github.com/morrislab/rnacompete'
+Repository_deprecated = 'https://github.com/morrislab/RNAcompete-deprecated'
+Publication = 'https://www.nature.com/articles/nature12311'
+
+[project.scripts]
+rnacompete = 'rnacompete.cli:main_cli'
+
+[tool.setuptools]
+packages = [
+    'rnacompete',
+    'rnacompete.classifier',
+    'rnacompete.data',
+    'rnacompete.modes',
+    'rnacompete.subscripts',
+]
+
+[tool.setuptools.package-data]
+'rnacompete.classifier' = ['LR_model.sav', 'SS_model.sav']
+'rnacompete.data' = ['probe_metadata.tsv']

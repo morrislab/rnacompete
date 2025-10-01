@@ -1,0 +1,15 @@
+hyb_id	rnacompete_id	tax_name	gene_name	normalization_batch
+HybID00025	RNCMPT00112	Homo sapiens	ELAVL1	HybID00025_00103_subset
+HybID00027	RNCMPT00011	Drosophila melanogaster	papi	HybID00025_00103_subset
+HybID00032	RNCMPT00106	Homo sapiens	SRSF1	HybID00025_00103_subset
+HybID00034	RNCMPT00270	Drosophila melanogaster	bru1	HybID00025_00103_subset
+HybID00052	RNCMPT00083	Homo sapiens	YBX1	HybID00025_00103_subset
+HybID00065	RNCMPT00111	Saccharomyces cerevisiae	VTS1	HybID00025_00103_subset
+HybID00073	RNCMPT00113	Homo sapiens	RBM4	HybID00025_00103_subset
+HybID00077	RNCMPT00094	Drosophila melanogaster	Hrb98DE	HybID00025_00103_subset
+HybID00080	RNCMPT00040	Drosophila melanogaster	msi	HybID00025_00103_subset
+HybID00082	RNCMPT00095	Drosophila melanogaster	Hrb98DE	HybID00025_00103_subset
+HybID00083	RNCMPT00003	Drosophila melanogaster	bru1	HybID00025_00103_subset
+HybID00085	RNCMPT00107	Homo sapiens	SRSF1	HybID00025_00103_subset
+HybID00088	RNCMPT00099	Drosophila melanogaster	msi	HybID00025_00103_subset
+HybID00097	RNCMPT00114	Drosophila melanogaster	bru1	HybID00025_00103_subset
