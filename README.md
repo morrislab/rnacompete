@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/1068117834.svg)](https://doi.org/10.5281/zenodo.17247113)
+
 # RNAcompete: Data Processing and Summarization Pipeline
 This repository provides a reproducible pipeline to process and summarize
 **RNAcompete** data.
